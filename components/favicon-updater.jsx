@@ -11,7 +11,6 @@ export function FaviconUpdater() {
       const favicon = document.querySelector('link[rel="icon"]');
       if (!favicon) return;
 
-      // Detectar si es tema oscuro
       const isDark =
         theme === "dark" || (theme === "system" && systemTheme === "dark");
 

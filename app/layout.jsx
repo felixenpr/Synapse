@@ -20,13 +20,13 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/faviconlight.ico" />
       </head>
       <body className="font-sans antialiased">
-        <FaviconUpdater />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
+          <FaviconUpdater />
           {children}
         </ThemeProvider>
         <Analytics />
