@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { ThemeProvider } from "@/components/theme-provider";
+import { FaviconUpdater } from "@/components/favicon-updater";
 import "./globals.css";
 
 const _geist = Geist({ subsets: ["latin"] });
@@ -15,7 +16,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/faviconlight.ico" />
+      </head>
       <body className="font-sans antialiased">
+        <FaviconUpdater />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

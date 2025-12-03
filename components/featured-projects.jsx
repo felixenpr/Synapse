@@ -9,7 +9,7 @@ const projects = [
     description:
       "Aprendí a estructurar un dashboard complejo, manejar flujos de usuarios, optimizar rendimiento y trabajar módulos escalables con enfoque en UX. Implementé lógica de negocio clara, componentes reutilizables y buenas prácticas de arquitectura frontend.",
     image: "/modern-web-app-dashboard.jpg",
-    url: "https://demo1.com",
+    url: "https://habigestor.felixenpr.site",
     tags: [
       "React",
       "Next.js",
@@ -24,7 +24,7 @@ const projects = [
     description:
       "Aprendí a implementar redirecciones dinámicas, métricas de acceso y manejo de datos para análisis. Profundicé en rutas dinámicas, buenas prácticas de rendimiento y diseño de interfaces simples para flujos rápidos de creación y gestión.",
     image: "/mobile-app-ui-design.png",
-    url: "https://demo2.com",
+    url: "https://qrnexus.felixenpr.site",
     tags: [
       "Next.js",
       "API Routes",
@@ -39,7 +39,7 @@ const projects = [
     description:
       "Mejoré mis habilidades en UI/UX minimalista, manejo de layouts reutilizables y optimización para SEO. Aprendí a construir componentes altamente reutilizables y a mejorar la experiencia móvil con un diseño limpio y rápido.",
     image: "/ai-dashboard-interface.png",
-    url: "https://demo3.com",
+    url: "https://synapse.felixenpr.site",
     tags: ["React", "Next.js", "UI/UX", "SEO", "Responsive Design"]
   },
   {
@@ -47,7 +47,7 @@ const projects = [
     description:
       "Aprendí a integrar APIs blockchain, manejar economía interna del juego y optimizar interfaces gamificadas. Trabajé flujos complejos de usuario, sincronización de datos y lógica de recompensas.",
     image: "/ai-dashboard-interface.png",
-    url: "https://demo3.com",
+    url: "https://extintionwars.felixenpr.site",
     tags: ["Web3", "WAX", "GameDev", "NFT", "UI Gamificada"]
   },
   {
@@ -55,7 +55,7 @@ const projects = [
     description:
       "Fortalecí el entendimiento de mecánicas Play-to-Earn, ciclos de producción, dashboards gamificados y consumo de APIs en Web3. Aprendí a optimizar rendimiento en interfaces que requieren actualizaciones constantes.",
     image: "/ai-dashboard-interface.png",
-    url: "https://demo3.com",
+    url: "https://mygoldfarm.felixenpr.site",
     tags: ["Web3", "WAX", "GameDev", "NFT", "State Management"]
   },
   {
@@ -63,7 +63,7 @@ const projects = [
     description:
       "Aprendí a manejar lógica condicional compleja entre componentes, mejorar UX en procesos de selección y optimizar validaciones según reglas de negocio. Fue clave para reforzar patrones de estado y arquitectura limpia.",
     image: "/ai-dashboard-interface.png",
-    url: "https://demo3.com",
+    url: "https://builderpc.felixenpr.site",
     tags: [
       "React",
       "Ecommerce UI",
@@ -108,7 +108,7 @@ export default function FeaturedProjects() {
                 <p className="mt-1 text-xs text-muted-foreground">
                   {project.description}
                 </p>
-                <div className="mt-2 flex flex-wrap gap-1.5">
+                <div className="mt-4 flex flex-wrap gap-1.5">
                   {project.tags.map((tag) => (
                     <Badge
                       key={tag}

@@ -71,3 +71,13 @@ MIT
 ---
 
 Hecho con  usando Next.js
+
+
+
+update: Cambié margin en tags, mejoramiento de footer y RRSS icons y agregue favicons dinamicos
+
+- Tags en feactured-projects: Cambié la altura del margin top para dar mas espacio.
+- Footer: Agregué icono de taza de cafe y aguegé con mi nombre.
+- Secondary-links: Cambié el borde radius, también quité twiter y youtube, agregué Threards.
+- General: Agregué todos los links para que sean usables por clientes finales.
+- Añadí la funcionalidad de favicons dinámicos dependiendo del theme seleccionado por el usuario.
