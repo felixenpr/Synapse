@@ -9,14 +9,14 @@ const projects = [
     description:
       "Aprendí a integrar APIs blockchain, manejar economía interna del juego y optimizar interfaces gamificadas. Trabajé flujos complejos de usuario, sincronización de datos y lógica de recompensas.",
     image: "/extinctionwars-preview.jpg",
-    url: "https://extintionwars.felixenpr.site",
+    url: "https://extinctionwars.felixenpr.site",
     tags: ["Web3", "WAX", "GameDev", "NFT", "UI Gamificada"]
   },
   {
     title: "Juego NFT de Gestión y Producción en la Red WAX",
     description:
       "Fortalecí el entendimiento de mecánicas Play-to-Earn, ciclos de producción, dashboards gamificados y consumo de APIs en Web3. Aprendí a optimizar rendimiento en interfaces que requieren actualizaciones constantes.",
-    image: "/ai-dashboard-interface.png",
+    image: "/mygoldfarm-preview.jpg",
     url: "https://mygoldfarm.felixenpr.site",
     tags: ["Web3", "WAX", "GameDev", "NFT", "State Management"]
   },
