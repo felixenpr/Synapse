@@ -5,10 +5,26 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
+    title: "Juego NFT Post-Apocalíptico Play-to-Earn en WAX",
+    description:
+      "Aprendí a integrar APIs blockchain, manejar economía interna del juego y optimizar interfaces gamificadas. Trabajé flujos complejos de usuario, sincronización de datos y lógica de recompensas.",
+    image: "/extinctionwars-preview.jpg",
+    url: "https://extintionwars.felixenpr.site",
+    tags: ["Web3", "WAX", "GameDev", "NFT", "UI Gamificada"]
+  },
+  {
+    title: "Juego NFT de Gestión y Producción en la Red WAX",
+    description:
+      "Fortalecí el entendimiento de mecánicas Play-to-Earn, ciclos de producción, dashboards gamificados y consumo de APIs en Web3. Aprendí a optimizar rendimiento en interfaces que requieren actualizaciones constantes.",
+    image: "/ai-dashboard-interface.png",
+    url: "https://mygoldfarm.felixenpr.site",
+    tags: ["Web3", "WAX", "GameDev", "NFT", "State Management"]
+  },
+  {
     title: "Sistema de Gestión de Expensas para Condominios",
     description:
       "Aprendí a estructurar un dashboard complejo, manejar flujos de usuarios, optimizar rendimiento y trabajar módulos escalables con enfoque en UX. Implementé lógica de negocio clara, componentes reutilizables y buenas prácticas de arquitectura frontend.",
-    image: "/modern-web-app-dashboard.jpg",
+    image: "/habigestor.webp",
     url: "https://habigestor.felixenpr.site",
     tags: [
       "React",
@@ -38,25 +54,9 @@ const projects = [
     title: "WebApp Link-in-Bio y Portafolio Personal",
     description:
       "Mejoré mis habilidades en UI/UX minimalista, manejo de layouts reutilizables y optimización para SEO. Aprendí a construir componentes altamente reutilizables y a mejorar la experiencia móvil con un diseño limpio y rápido.",
-    image: "/ai-dashboard-interface.png",
+    image: "/synapse-preview.jpg",
     url: "https://synapse.felixenpr.site",
     tags: ["React", "Next.js", "UI/UX", "SEO", "Responsive Design"]
-  },
-  {
-    title: "Juego NFT Post-Apocalíptico Play-to-Earn en WAX",
-    description:
-      "Aprendí a integrar APIs blockchain, manejar economía interna del juego y optimizar interfaces gamificadas. Trabajé flujos complejos de usuario, sincronización de datos y lógica de recompensas.",
-    image: "/ai-dashboard-interface.png",
-    url: "https://extintionwars.felixenpr.site",
-    tags: ["Web3", "WAX", "GameDev", "NFT", "UI Gamificada"]
-  },
-  {
-    title: "Juego NFT de Gestión y Producción en la Red WAX",
-    description:
-      "Fortalecí el entendimiento de mecánicas Play-to-Earn, ciclos de producción, dashboards gamificados y consumo de APIs en Web3. Aprendí a optimizar rendimiento en interfaces que requieren actualizaciones constantes.",
-    image: "/ai-dashboard-interface.png",
-    url: "https://mygoldfarm.felixenpr.site",
-    tags: ["Web3", "WAX", "GameDev", "NFT", "State Management"]
   },
   {
     title: "Configurador de PCs Personalizadas para Ecommerce",
@@ -94,6 +94,7 @@ export default function FeaturedProjects() {
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
                   fill
+                  style={{ objectPosition: "top" }}
                   className="object-cover transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-card to-transparent" />
