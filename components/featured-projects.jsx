@@ -39,7 +39,7 @@ const projects = [
     title: "Gestor de URLs Dinámicas con QR y Analíticas",
     description:
       "Aprendí a implementar redirecciones dinámicas, métricas de acceso y manejo de datos para análisis. Profundicé en rutas dinámicas, buenas prácticas de rendimiento y diseño de interfaces simples para flujos rápidos de creación y gestión.",
-    image: "/mobile-app-ui-design.png",
+    image: "/qrnexus-preview.jpg",
     url: "https://qrnexus.felixenpr.site",
     tags: [
       "Next.js",
@@ -55,14 +55,14 @@ const projects = [
     description:
       "Mejoré mis habilidades en UI/UX minimalista, manejo de layouts reutilizables y optimización para SEO. Aprendí a construir componentes altamente reutilizables y a mejorar la experiencia móvil con un diseño limpio y rápido.",
     image: "/synapse-preview.jpg",
-    url: "https://synapse.felixenpr.site",
+    url: "#",
     tags: ["React", "Next.js", "UI/UX", "SEO", "Responsive Design"]
   },
   {
     title: "Configurador de PCs Personalizadas para Ecommerce",
     description:
       "Aprendí a manejar lógica condicional compleja entre componentes, mejorar UX en procesos de selección y optimizar validaciones según reglas de negocio. Fue clave para reforzar patrones de estado y arquitectura limpia.",
-    image: "/ai-dashboard-interface.png",
+    image: "/builder-pc-preview.jpg",
     url: "https://builderpc.felixenpr.site",
     tags: [
       "React",
