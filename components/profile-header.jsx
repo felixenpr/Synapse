@@ -18,10 +18,10 @@ export default function ProfileHeader() {
       <h1 className="text-2xl font-bold text-foreground sm:text-3xl">
         Félix Pérez
       </h1>
-      <p className="text-base font-medium text-primary sm:text-lg">{`Semi-Senior Frontend Developer`}</p>
+      <p className="text-base font-medium text-primary sm:text-lg">{`Desarrollador Frontend`}</p>
       <p className="max-w-sm text-sm leading-relaxed text-muted-foreground text-balance sm:text-base">
-        Especializado en React y Next.js, construyo interfaces modernas y de
-        alto impacto que combinan velocidad, usabilidad y experiencia visual.
+        Especializado en React y Next.js, construyo E-commerce de alto
+        rendimiento que combinan velocidad, usabilidad y experiencia visual.
       </p>
     </header>
   );

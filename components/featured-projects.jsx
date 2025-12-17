@@ -78,7 +78,7 @@ export default function FeaturedProjects() {
   return (
     <section className="w-full">
       <h2 className="mb-4 text-center text-base font-semibold text-foreground sm:text-lg">
-        Desarrollos Recientes
+        Algunos de mis Proyectos
       </h2>
       <div className="grid grid-cols-1 gap-3">
         {projects.map((project) => (
