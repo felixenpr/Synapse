@@ -5,6 +5,35 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
+    title: "Configurador de PCs Personalizadas para Ecommerce",
+    description:
+      "Aprendí a manejar lógica condicional compleja entre componentes, mejorar UX en procesos de selección y optimizar validaciones según reglas de negocio. Fue clave para reforzar patrones de estado y arquitectura limpia.",
+    image: "/builder-pc-preview.jpg",
+    url: "https://builderpc.felixenpr.site",
+    tags: [
+      "React",
+      "Ecommerce UI",
+      "Component Logic",
+      "Forms",
+      "State Management"
+    ]
+  },
+  {
+    title: "Gestor de URLs Dinámicas con QR y Analíticas",
+    description:
+      "Aprendí a implementar redirecciones dinámicas, métricas de acceso y manejo de datos para análisis. Profundicé en rutas dinámicas, buenas prácticas de rendimiento y diseño de interfaces simples para flujos rápidos de creación y gestión.",
+    image: "/qrnexus-preview.jpg",
+    url: "https://qrnexus.felixenpr.site",
+    tags: [
+      "Next.js",
+      "API Routes",
+      "Analytics",
+      "QR Generation",
+      "State Management",
+      "UX"
+    ]
+  },
+  {
     title: "Juego NFT Post-Apocalíptico Play-to-Earn en WAX",
     description:
       "Aprendí a integrar APIs blockchain, manejar economía interna del juego y optimizar interfaces gamificadas. Trabajé flujos complejos de usuario, sincronización de datos y lógica de recompensas.",
@@ -36,41 +65,12 @@ const projects = [
     ]
   },
   {
-    title: "Gestor de URLs Dinámicas con QR y Analíticas",
-    description:
-      "Aprendí a implementar redirecciones dinámicas, métricas de acceso y manejo de datos para análisis. Profundicé en rutas dinámicas, buenas prácticas de rendimiento y diseño de interfaces simples para flujos rápidos de creación y gestión.",
-    image: "/qrnexus-preview.jpg",
-    url: "https://qrnexus.felixenpr.site",
-    tags: [
-      "Next.js",
-      "API Routes",
-      "Analytics",
-      "QR Generation",
-      "State Management",
-      "UX"
-    ]
-  },
-  {
     title: "WebApp Link-in-Bio y Portafolio Personal",
     description:
       "Mejoré mis habilidades en UI/UX minimalista, manejo de layouts reutilizables y optimización para SEO. Aprendí a construir componentes altamente reutilizables y a mejorar la experiencia móvil con un diseño limpio y rápido.",
     image: "/synapse-preview.jpg",
     url: "#",
     tags: ["React", "Next.js", "UI/UX", "SEO", "Responsive Design"]
-  },
-  {
-    title: "Configurador de PCs Personalizadas para Ecommerce",
-    description:
-      "Aprendí a manejar lógica condicional compleja entre componentes, mejorar UX en procesos de selección y optimizar validaciones según reglas de negocio. Fue clave para reforzar patrones de estado y arquitectura limpia.",
-    image: "/builder-pc-preview.jpg",
-    url: "https://builderpc.felixenpr.site",
-    tags: [
-      "React",
-      "Ecommerce UI",
-      "Component Logic",
-      "Forms",
-      "State Management"
-    ]
   }
 ];
 
