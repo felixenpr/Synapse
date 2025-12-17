@@ -8,9 +8,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Félix Pérez | Semi-Senior Frontend Developer",
+  title: "Félix Pérez | Desarrollador Frontend",
   description:
-    "Desarrollador Front-End especializado en la creación de interfaces de usuario escalables y modernas con React, Next.js y JavaScript. Apasionado por el rendimiento web y la experiencia del usuario."
+    "Especializado en React y Next.js, construyo E-commerce de alto rendimiento que combinan velocidad, usabilidad y experiencia visual."
 };
 
 export default function RootLayout({ children }) {
